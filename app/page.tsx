@@ -1,9 +1,11 @@
-import { Button } from "@/components/ui/button"
+import Hero from "@/components/Hero"
 
 export default function Home() {
   return (
     <main className="mt-[72px]">
-      home
+      <div className="bg-gray-100">
+      <Hero />
+      </div>
     </main>
   )
 }

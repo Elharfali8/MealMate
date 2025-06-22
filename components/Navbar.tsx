@@ -12,7 +12,7 @@ type SidebarProps = {
 
 const Navbar = ({sidebarIsOpen, toggleSidebar}: SidebarProps) => {
   return (
-      <nav className="max-w-[1400px] mx-auto flex items-center justify-between py-4">
+      <nav className="max-w-[1400px] mx-auto flex items-center justify-between py-4 z-[99]">
               <Link href={'/'} className='text-2xl font-bold text-[#4CAF50]'>
               𝓜𝓮𝓪𝓵𝓜𝓪𝓽𝓮
               </Link>
