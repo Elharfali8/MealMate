@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Providers from "./Providers";
+import 'keen-slider/keen-slider.min.css'
+
 
 export const metadata: Metadata = {
   title: "Create Next App",

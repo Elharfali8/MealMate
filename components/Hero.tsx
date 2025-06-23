@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 const Hero = () => {
   return (
-      <div className='grid lg:place-items-center min-h-[calc(100vh-72px)]'
+      <div className='grid lg:place-items-center min-h-[calc(100vh-72px)] z-[10]'
       
       >
           <div className="grid grid-cols-1 md:grid-cols-2 py-8 items-center gap-6 max-w-7xl mx-auto px-4 ">
