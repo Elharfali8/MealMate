@@ -13,16 +13,11 @@ export const links: Links[] = [
     },
     {
         id: 2,
-        title: 'About',
-        url: '/about',
-    },
-    {
-        id: 3,
         title: 'Recipes',
         url: '/recipes',        
     },
     {
-        id: 4,
+        id: 3,
         title: 'Prepare',
         url: '/prepare',
     }

@@ -3,6 +3,7 @@ import SectionTitle from './SectionTitle'
 import { fakeData } from '@/utils/data'
 import Image from 'next/image'
 import Link from 'next/link'
+import MainButton from './MainButton'
 
 const RandomRecipes = () => {
   return (
@@ -24,6 +25,9 @@ const RandomRecipes = () => {
                           </Link>
                       )
                   })}
+              </div>
+              <div className='grid place-items-center mt-6 lg:mt-8'>
+                    <MainButton text='load more' />
               </div>
               </div>
       </section>
