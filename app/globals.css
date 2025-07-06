@@ -74,3 +74,26 @@
   background: #7fdb82;
 background: linear-gradient(90deg, rgba(127, 219, 130, 1) 0%, rgba(255, 255, 255, 1) 100%);
 }
+
+.main-container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+
+@media (min-width: 1024px) {
+  .main-container {
+    padding-left: 0.5rem;  
+    padding-right: 0.5rem; 
+  }
+}
+
+
+@media (min-width: 1280px) {
+  .main-container {
+    padding-left: 0.25rem;  
+    padding-right: 0.25rem; 
+  }
+}
