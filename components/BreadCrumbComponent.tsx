@@ -16,7 +16,7 @@ export function BreadCrumbComponent({page, child}:{page:string, child: string })
       <BreadcrumbList>
         <BreadcrumbItem>
           <BreadcrumbLink asChild>
-            <Link href="/">Home</Link>
+            <Link href="/" className="text-lg">Home</Link>
           </BreadcrumbLink>
         </BreadcrumbItem>
         {page && (
@@ -26,7 +26,7 @@ export function BreadCrumbComponent({page, child}:{page:string, child: string })
             </BreadcrumbSeparator>
             <BreadcrumbItem>
               <BreadcrumbLink asChild>
-                <Link href={`/${page}`}>{page}</Link>
+                <Link href={`/${page}`} className="text-lg capitalize">{page}</Link>
               </BreadcrumbLink>
             </BreadcrumbItem>
           </>
@@ -37,7 +37,7 @@ export function BreadCrumbComponent({page, child}:{page:string, child: string })
               <SlashIcon />
             </BreadcrumbSeparator>
             <BreadcrumbItem>
-              <BreadcrumbPage>{child}</BreadcrumbPage>
+              <BreadcrumbPage className="text-lg capitalize">{child}</BreadcrumbPage>
             </BreadcrumbItem>
           </>
         )}

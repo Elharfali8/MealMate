@@ -14,7 +14,7 @@ const RandomRecipes = () => {
                   {fakeData.map((recipe) => {
                       const { id, title, image } = recipe
                       return (
-                          <Link href={`/recipe/${id}`} key={id} className='mb-6 shadow-lg pb-4 rounded-lg overflow-hidden transition-all ease-in-out duration-150 hover:scale-105 hover:shadow-xl bg-gray-100'>
+                          <Link href={`/recipes/${id}`} key={id} className='mb-6 shadow-lg pb-4 rounded-lg overflow-hidden transition-all ease-in-out duration-150 hover:scale-105 hover:shadow-xl bg-gray-100'>
                               <div className=''>
                                   <Image src={image} alt={title} width={300} height={300} className='w-full h-[200px] object-cover  shadow-md' />
                                   
